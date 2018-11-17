@@ -1,4 +1,4 @@
-package com.niit;
+package com.niit.javafxstudy;
 
 import static org.junit.Assert.assertTrue;
 

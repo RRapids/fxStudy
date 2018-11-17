@@ -1,5 +1,5 @@
 .root{
-    -fx-background-image: url("http://pdnalatfa.bkt.clouddn.com/18-11-16/22240316.jpg");
+    -fx-background-image: url("/img/bg.jpg");
 }
 .hyperlink{
     -fx-font-size: 24px;
@@ -33,10 +33,4 @@
     -fx-background-color: rgb(66, 192, 46);
     -fx-text-fill: #FFFFFF;
     -fx-font-size: 20px;
-}
-
-.btn-success {
-}
-
-.btn {
 }
