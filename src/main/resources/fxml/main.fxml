@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="fxml.Fxml"
+            prefHeight="400.0" prefWidth="600.0">
+    <top>
+        <AnchorPane prefHeight="50.0">
+            <Hyperlink text="简书" AnchorPane.topAnchor="10" AnchorPane.leftAnchor="20"/>
+            <Button styleClass="btn,btn-success" text="发现"
+                    AnchorPane.topAnchor="10" AnchorPane.leftAnchor="120" />
+            <ImageView fitHeight="40.0" fitWidth="40.0" AnchorPane.topAnchor="10" AnchorPane.rightAnchor="20">
+                <Image url="/img/me.jpg"/>
+            </ImageView>
+        </AnchorPane>
+    </top>
+    <AnchorPane>
+        <ImageView>
+            <image />
+        </ImageView>
+    </AnchorPane>
+    <center>
+    <GridPane hgap="20" vgap="20">
+    <AnchorPane  GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.hgrow="ALWAYS" styleClass="anchor_pane">
+        <ImageView fitHeight="120.0" fitWidth="120.0" AnchorPane.topAnchor="-40" AnchorPane.leftAnchor="140">
+            <Image url="/img/1.png"/>
+        </ImageView>
+        <Label text="故事" styleClass="text_bold" AnchorPane.topAnchor="120" AnchorPane.leftAnchor="170"/>
+        <Label styleClass="p" wrapText="true" maxWidth="200"
+               text="真实或虚幻的故事真实或虚幻的故事真实或虚幻的故事真实或虚幻的故事"
+               AnchorPane.topAnchor="190"
+               AnchorPane.leftAnchor="110" style="-fx-font-size: 24px"/>
+        <Button text="关注"  AnchorPane.bottomAnchor="80" AnchorPane.leftAnchor="130" styleClass="follow_btn"/>
+    </AnchorPane>
+    <AnchorPane  GridPane.columnIndex="1" Gri
+
+</BorderPane>
